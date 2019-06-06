@@ -1,14 +1,14 @@
 # BoruvkaMST
 >Finding the minimal spanning tree of a weighted graph using Baruvka's algorithm 
 
-Objective
+    Objective
         -Create a minimal spanning tree consisting of Vertices and Edges
         -Each vertex has an identifier and each edge has a weight (cost)
         -Tree cannot have any cycles
         -Must traverse the tree with the MINIMUM (Least sum) of edge weights
         -Can have multiple MSTs with the same sum of weights within the graph
 
-Algorithm
+    Algorithm
         -Start with a forest, where each tree is a vertex (node) of the graph and has an edge
         connecting to at least one other tree (node)
         -Find least weighted neighboring tree that does not create a cycle
